@@ -99,8 +99,9 @@ li {
 
 /*for wrapper*/
 .wrapper {
+  padding-left: 14px;
   max-width: 1360px;
-  width: 76.65%; 
+  width: 78%; 
   margin: 0 auto;
 }
 
@@ -114,11 +115,41 @@ li {
 /*=================================
   Header styling starts here
 =================================*/
+.header .wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.dropdown {
+  display: none;
+}
 
+.header {
+  padding: 17px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px dotted #f3f3f3;
+}
 
+.hamburger {
+  display: none;
+}
 
+.logo {
+  width: 185px;
+}
 
+.nav-list {
+  display: flex;
+  gap: 41px;
+}
+
+.nav-item {
+  color: #3F3435;
+  font-size: 14px;
+  font-weight: 600;
+}
 
 /*=================================
   Header styling ends here
