@@ -154,10 +154,73 @@ li {
 /*=================================
   Header styling ends here
 =================================*/  
-
 /*=================================
   main styling starts here
 =================================*/
+/* banner section styling starts here  */
+.banner .wrapper {
+  width: 100%;
+  padding: 60px 0;
+  margin-left: 8px;
+  display: flex;
+}
+
+.left-image {
+  width: 664px;
+  margin-right: 28px;
+}
+
+.category figure {
+  width: 316px;
+}
+
+.category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+}
+
+.left-banner {
+  position: relative;
+}
+
+.left-content {
+  position: absolute;
+  top: 36%;
+  left: 13%;
+}
+
+.main-heading {
+  margin-bottom: 24px;
+  color: #fff;
+  font-size: 49px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+
+.left-content p {
+  font-size: 13px;
+  font-style: italic ;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.category-img {
+  position: relative;
+}
+
+.right-content {
+  position: absolute;
+  top: 39%;
+  left: 23%;
+}
+
+.left-content ,
+.right-content {
+  color: #fff;
+ }
+/* banner section styling starts here  */
 
 
 
