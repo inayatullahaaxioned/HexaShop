@@ -102,6 +102,7 @@ li {
   max-width: 1360px;
   width: 76.5%; 
   margin-left: 13%;
+  position: relative;
 }
 
 * ,
@@ -111,7 +112,32 @@ li {
   padding: 0;
   box-sizing: border-box;
 }
+ /* common styling  */
 
+.header ,
+.banner ,
+.men-section ,
+.women-section ,
+.kid-section ,
+.explore ,
+.social-media ,
+.newsletter {
+  border-bottom: 3px dotted #f3f3f3;
+}
+
+.men-section .wrapper ,
+.women-section .wrapper ,
+.kid-section .wrapper ,
+.explore .wrapper ,
+.social-media .wrapper {
+  padding: 81px 0;
+  position: relative;
+}
+
+.left-arrow ,
+.right-arrow {
+  height: 0;
+}
 /*=================================
   Header styling starts here
 =================================*/
@@ -129,7 +155,6 @@ li {
   padding: 30px 0 12px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 3px dotted #f3f3f3;
 }
 
 .hamburger {
@@ -177,7 +202,6 @@ li {
   main styling starts here
 =================================*/
 /* banner section styling starts here  */
-.banner { border-bottom: 3px dotted #f3f3f3; }
 .banner .wrapper {
   width: 100%;
   padding: 57px 0;
@@ -263,6 +287,93 @@ li {
   text-align: center;
  }
 /* banner section styling end here  */
+
+/* men section styling start here  */
+.category-heading {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 3px;
+}
+
+.category-para {
+  color: #CACFDB;
+  font-size: 14.5px;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.left-arrow ,
+.right-arrow {
+  display: block;
+  text-indent: -9999px;
+}
+
+.left-arrow::before ,
+.right-arrow::before {
+  content: "\f104";
+  float: left;
+  font-size: 19px;
+  font-family: "FontAwesome";
+  text-indent: 0;
+  padding: 11px 18px;
+  border: 1px solid #5D5D5D;
+  position: absolute;
+  top: 48%;
+  left: -7%;
+}
+
+.right-arrow::before {
+  content: "\f105";
+  left: 103%;
+}
+
+.latest-list { display: none; }
+
+.show { display: block; }
+
+.latest-list figure {
+  width: 325px;
+  margin-bottom: 32px;
+}
+
+.latest {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.name-rating {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.name-rating h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.rate-icon {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
+.rate-icon::before {
+  content: "\f005";
+  text-indent: 0;
+  font-family: "FontAwesome";
+  float: left;
+  font-size: 12px;
+}
+
+.price {
+  color: #A9A39F;
+  font-size: 17px;
+  font-weight: 600;
+}
+/* men section styling end here  */
 
 
 
