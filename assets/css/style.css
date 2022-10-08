@@ -288,7 +288,7 @@ li {
  }
 /* banner section styling end here  */
 
-/* men section styling start here  */
+/* men, women and kid section styling start here  */
 .category-heading {
   font-size: 30px;
   font-weight: 800;
@@ -373,7 +373,113 @@ li {
   font-size: 17px;
   font-weight: 600;
 }
-/* men section styling end here  */
+/* men, women and kid section styling end here  */
+
+/* explore section styling start here  */
+.explore .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.explore-image {
+  width: 238px;
+  height: 238px;
+}
+
+.explore .category-heading { font-size: 29px; }
+
+.explore-image figure {
+  width: 238px;
+}
+
+.left-explore {
+  padding-right: 65px;
+  flex-basis: 98%;
+}
+
+.explore-image-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.explore-image:first-child ,
+.explore-image:last-child {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.left-explore .category-heading,
+.explore-para {
+  margin-bottom: 28px;
+}
+
+.explore-para {
+  color: #A9A39F;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.bold-para {
+  margin-bottom: 35px;
+  padding-left: 42px;
+  position: relative;
+  color: #000;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.comma::before {
+  content: "\f10d";
+  font-family: "FontAwesome";
+  font-size: 29px;
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-style: normal;
+}
+
+.discover-btn {
+  padding: 11px 24px;
+  border: 1px solid #000;
+  color: #000;
+  font-size: 13px;
+}
+
+.explore-image { position: relative; }
+
+.explore-content {
+  width: 100%;
+  position: absolute;
+  top: 37%;
+  text-align: center;
+}
+
+.leather-different {
+  margin-bottom: 7px;
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.latest-type {
+  color: #A9A39F;
+  font-size: 15px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+
+
+
+
+
+/* explore section styling end here  */
 
 
 
