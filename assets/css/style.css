@@ -474,12 +474,19 @@ li {
   font-style: italic;
 }
 
-
-
-
-
-
 /* explore section styling end here  */
+
+/* social media styling start here  */
+.insta-image {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.insta-image img {
+  width: 171px;
+}
+/* social media styling start here  */
 
 
 
