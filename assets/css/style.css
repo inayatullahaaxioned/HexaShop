@@ -129,7 +129,8 @@ li {
 .women-section .wrapper ,
 .kid-section .wrapper ,
 .explore .wrapper ,
-.social-media .wrapper {
+.social-media .wrapper,
+.newsletter .wrapper {
   padding: 81px 0;
   position: relative;
 }
@@ -487,6 +488,79 @@ li {
   width: 171px;
 }
 /* social media styling start here  */
+
+/* newsletter section styling start here  */
+.newsletter .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-newsletter {
+  flex-basis: 61%;
+}
+
+.right-newsletter { flex-basis: 31.5%; }
+
+.contact-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 31px;
+}
+
+.contact-detail li {
+  flex-basis: 44%;
+}
+
+.contact-heading {
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.detail,
+.contact-detail li a {
+  color: #A9A39F;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+
+.form-input input {
+  padding: 6.2% 45% 6.2% 8%;
+}
+
+.subscribe-btn {
+  text-indent: -9999px;
+}
+
+.subscribe-btn::before {
+  content: "\f1d8";
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 0;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  font-family: "FontAwesome";
+  float: left;
+}
+
+.newsletter .category-heading { letter-spacing: -.5px; }
+
+.form-input input::placeholder {
+  font-style: italic;
+  letter-spacing: .5px;
+}
+/* newsletter section styling end here  */
 
 
 
