@@ -877,3 +877,39 @@ li {
   .insta-image li { flex-basis: 40%; }
 }
 /* media query for 480px end  */
+
+/* media query for 320px start  */
+@media only screen and (max-width:480px) {
+  .main-heading {
+    font-size: 25px;
+  }
+
+  .category-img {
+    flex-basis: 43%;
+  }
+
+  .left-banner .main-heading { font-size: 25px; }
+  .right-banner .heading ,
+  .right-banner p {
+    font-size: 13px;
+  }
+
+  .left-arrow::before, .right-arrow::before { padding: 1px 7px; }
+  
+  .latest-list {
+    flex-basis: 75%;
+    margin: 0 auto;
+  }
+
+  .explore .category-heading {
+    font-size: 27px;
+  }
+
+  .left-explore { padding: 0; }
+  .leather-different { font-size: 12px; }
+  .latest-type { font-size: 10px; }
+  .newsletter .category-heading { font-size: 25px; }
+  .contact-detail li { flex-basis: 100%; }
+  .footer-upper { gap: 40px; }
+}
+/* media query for 320px end  */
