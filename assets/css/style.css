@@ -187,13 +187,13 @@ li {
 
 .drop-icon::before {
   content: "\f107";
-  float: right;
   padding: 4px 0 0 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 10px;
   font-family: "FontAwesome";
+  float: right;
 }
 
 /*=================================
@@ -245,16 +245,16 @@ li {
 }
 
 .left-content p {
+  margin-bottom: 35px;
   font-size: 13px;
   font-style: italic ;
   font-weight: 800;
   letter-spacing: 1px;
-  margin-bottom: 35px;
 }
 
 .purchase-btn { 
-  border: 1px solid #fff;
   padding: 12px 26px;
+  border: 1px solid #fff;
   color: #fff;
   font-size: 12px;
   font-weight: 600;
@@ -312,15 +312,15 @@ li {
 .left-arrow::before ,
 .right-arrow::before {
   content: "\f104";
+  padding: 11px 18px;
+  position: absolute;
+  top: 48%;
+  left: -7%;
+  border: 1px solid #5D5D5D;
   float: left;
   font-size: 19px;
   font-family: "FontAwesome";
   text-indent: 0;
-  padding: 11px 18px;
-  border: 1px solid #5D5D5D;
-  position: absolute;
-  top: 48%;
-  left: -7%;
 }
 
 .right-arrow::before {
@@ -422,8 +422,8 @@ li {
 }
 
 .bold-para {
-  margin-bottom: 35px;
   padding-left: 42px;
+  margin-bottom: 35px;
   position: relative;
   color: #000;
   font-size: 13px;
@@ -434,12 +434,12 @@ li {
 
 .comma::before {
   content: "\f10d";
-  font-family: "FontAwesome";
-  font-size: 29px;
   display: inline-block;
   position: absolute;
   top: 10px;
   left: 0;
+  font-size: 29px;
+  font-family: "FontAwesome";
   font-style: normal;
 }
 
@@ -562,26 +562,104 @@ li {
 }
 /* newsletter section styling end here  */
 
-
-
-
-
-
-
-
 /*=================================
   main styling ends here
 =================================*/
-
 /*=================================
   footer styling starts here
 =================================*/ 
+.footer {
+  margin-left: 8px;
+  background-color: #2b2b2b;
+}
 
+.footer .wrapper {
+  padding: 55px 0 0 0;
+  display: flex;
+  flex-direction: column;
+}
 
+.footer-upper {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #565656;
+  display: flex;
+}
 
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex-basis: 25%;
+}
 
+.footer-upper .footer-logo address ,
+.footer-upper .footer-logo a {
+  line-height: 21px;
+}
 
+.footer-logo ,
+.shopping ,
+.links ,
+.help {
+  flex-basis: 25%;
+  color: #fff;
+}
 
+.footer-list img {
+  width: 182px;
+}
+
+.footer-heading {
+  margin-bottom: 23px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.footer-logo { padding-right: 25px; }
+.links { padding-left: 8px; }
+.help { padding-left: 20px; }
+
+.footer-font {
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer-lower {
+  padding: 34px 0;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer-lower p {
+  padding-bottom: 10px;
+}
+
+.footer-lower a { color: #fff; }
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+
+.social-icon {
+  text-indent: -9999px;
+}
+
+.social-icon::before {
+  content: "\f09a";
+  color: #fff;
+  font-size: 20px;
+  font-family: "FontAwesome";
+  float: left;
+  text-indent: 0;
+}
+
+.twitter::before { content: "\f099"; }
+.linkedin::before { content: "\f0e1"; }
+.behance::before { content: "\f1b4"; }
 
  /*=================================
   footer styling ends here
