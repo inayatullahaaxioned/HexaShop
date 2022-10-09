@@ -713,6 +713,60 @@ li {
   color: #e9e0e0;
   transform: scale(1.15);
 }
-  
 }  
 /*media query for hover effects on desktop ends*/
+
+/* media query for 1024px start  */
+@media only screen and (max-width:1024px) {
+  .category-img ,
+  .left-image ,
+  .category figure{
+    width: 100%;
+  }
+
+  .banner .wrapper {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .left-banner { flex-basis: 50%; }
+  .right-banner { flex-basis: 48%; }
+  .category-img { flex-basis: 46%; }
+
+  .latest {
+    flex-wrap: wrap;
+  }
+
+  .explore .wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .explore-para ,
+  .bold-para {
+    font-size: 16px;
+  }
+
+  .insta-image { gap: 30px; }
+
+  .newsletter .wrapper {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .category-para {
+    margin-bottom: 45px;
+  }
+
+  .footer-upper {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .footer-logo, .shopping, .links, .help {
+    flex-basis: 46%;
+  }
+
+}
+/* media query for 1440+px start  */
