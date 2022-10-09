@@ -162,6 +162,16 @@ li {
   display: none;
 }
 
+.bar {
+  display: block;
+  text-indent: -9999px;
+  height: 3px;
+  background-color: #000;
+  margin: 5px;
+  width: 25px;
+  transition: all .3s;
+}
+
 .logo {
   width: 182px;
 }
@@ -215,7 +225,7 @@ li {
 }
 
 .category figure {
-  width: 316px;
+  max-width: 316px;
 }
 
 .category {
@@ -332,7 +342,7 @@ li {
 .show { display: block; }
 
 .latest-list figure {
-  width: 325px;
+  max-width: 325px;
   margin-bottom: 32px;
 }
 
@@ -389,7 +399,7 @@ li {
 .explore .category-heading { font-size: 29px; }
 
 .explore-image figure {
-  width: 238px;
+  max-width: 238px;
 }
 
 .left-explore {
@@ -769,4 +779,79 @@ li {
   }
 
 }
-/* media query for 1440+px start  */
+/* media query for 1024px start  */
+
+/* media query for 768px start  */
+@media only screen and (max-width: 767px) {
+  .hamburger {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    top: 8px;
+    right: 0;
+  }
+
+  .hamburger:hover + .nav {
+    right: 0;
+  }
+
+  .nav {
+  position: fixed;
+  z-index: 4;
+  top: 0;
+  right: -100%;
+  background: #A9A39F;
+  width: 100%;
+  height: 100vh;
+  transition: all .3s;
+  }
+
+  .nav-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  }
+
+  .category-img ,
+  .left-image ,
+  .category figure{
+    width: 100%;
+  }
+
+  .banner .wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .latest-list { flex-basis: 45%; }
+
+  .left-arrow::before {
+    left: -12%;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    align-items: baseline;
+    gap: 40px;
+  }
+
+  .footer-logo, .shopping, .links, .help {
+    flex-basis: 42%;
+  }
+
+  .links ,
+  .help {
+    padding: 0;
+  }
+
+  .explore-image {
+    flex-basis: 42%;
+    height: auto;
+  }
+}
+/* media query for 768px end  */
