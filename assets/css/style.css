@@ -265,9 +265,9 @@ li {
 }
 
 .right-content {
+  width: 100%;
   position: absolute;
   top: 38%;
-  left: 20%;
 }
 
 .left-content ,
