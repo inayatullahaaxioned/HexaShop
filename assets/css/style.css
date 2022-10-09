@@ -148,9 +148,7 @@ li {
   justify-content: space-between;
 }
 
-.dropdown {
-  display: none;
-}
+.dropdown { display: none; }
 
 .header {
   padding: 30px 0 12px;
@@ -158,9 +156,7 @@ li {
   justify-content: space-between;
 }
 
-.hamburger {
-  display: none;
-}
+.hamburger { display: none; }
 
 .bar {
   display: block;
@@ -172,9 +168,7 @@ li {
   transition: all .3s;
 }
 
-.logo {
-  width: 182px;
-}
+.logo { width: 182px; }
 
 .nav-list {
   display: flex;
@@ -188,10 +182,7 @@ li {
   letter-spacing: .5px;
 }
 
-.nav-item.active {
-  color: #CACFDB;
-}
-
+.nav-item.active { color: #CACFDB; }
 .drop-icon { position: relative; }
 
 .drop-icon::before {
@@ -234,9 +225,7 @@ li {
   gap: 27px;
 }
 
-.left-banner {
-  position: relative;
-}
+.left-banner { position: relative; }
 
 .left-content {
   position: absolute;
@@ -269,9 +258,7 @@ li {
   font-weight: 600;
 }
 
-.category-img {
-  position: relative;
-}
+.category-img { position: relative; }
 
 .right-content {
   width: 100%;
@@ -338,7 +325,6 @@ li {
 }
 
 .latest-list { display: none; }
-
 .show { display: block; }
 
 .latest-list figure {
@@ -397,10 +383,7 @@ li {
 }
 
 .explore .category-heading { font-size: 29px; }
-
-.explore-image figure {
-  max-width: 238px;
-}
+.explore-image figure { max-width: 238px; }
 
 .left-explore {
   padding-right: 65px;
@@ -495,9 +478,7 @@ li {
   flex-wrap: wrap;
 }
 
-.insta-image img {
-  max-width: 171px;
-}
+.insta-image img { max-width: 171px; }
 /* social media styling start here  */
 
 /* newsletter section styling start here  */
@@ -511,10 +492,7 @@ li {
   justify-content: space-between;
 }
 
-.left-newsletter {
-  flex-basis: 61%;
-}
-
+.left-newsletter { flex-basis: 61%; }
 .right-newsletter { flex-basis: 31.5%; }
 
 .contact-detail {
@@ -523,9 +501,7 @@ li {
   gap: 31px;
 }
 
-.contact-detail li {
-  flex-basis: 44%;
-}
+.contact-detail li { flex-basis: 44%; }
 
 .contact-heading {
   margin-bottom: 6px;
@@ -546,9 +522,7 @@ li {
   padding: 6.2% 45% 6.2% 8%;
 }
 
-.subscribe-btn {
-  text-indent: -9999px;
-}
+.subscribe-btn { text-indent: -9999px; }
 
 .subscribe-btn::before {
   content: "\f1d8";
@@ -742,10 +716,7 @@ li {
   .left-banner { flex-basis: 50%; }
   .right-banner { flex-basis: 48%; }
   .category-img { flex-basis: 46%; }
-
-  .latest {
-    flex-wrap: wrap;
-  }
+  .latest { flex-wrap: wrap; }
 
   .explore .wrapper {
     flex-direction: column;
@@ -774,7 +745,10 @@ li {
     gap: 50px;
   }
 
-  .footer-logo, .shopping, .links, .help {
+  .footer-logo ,
+  .shopping ,
+  .links,
+  .help {
     flex-basis: 46%;
   }
 
@@ -797,24 +771,24 @@ li {
   }
 
   .nav {
-  width: 100%;
-  height: 100vh;
-  position: fixed;
-  z-index: 4;
-  top: 0;
-  right: -100%;
-  background: #A9A39F;
-  transition: all .3s;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    right: -100%;
+    background: #A9A39F;
+    transition: all .3s;
   }
 
   .nav-list {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  gap: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
   }
 
   .category-img ,
@@ -829,10 +803,7 @@ li {
   }
 
   .latest-list { flex-basis: 45%; }
-
-  .left-arrow::before {
-    left: -12%;
-  }
+  .left-arrow::before { left: -12%; }
 
   .subscribe {
     flex-direction: column;
@@ -840,9 +811,7 @@ li {
     gap: 40px;
   }
 
-  .footer-logo, .shopping, .links, .help {
-    flex-basis: 42%;
-  }
+  .footer-logo, .shopping, .links, .help { flex-basis: 42%; }
 
   .links ,
   .help {
@@ -880,15 +849,11 @@ li {
 
 /* media query for 320px start  */
 @media only screen and (max-width:480px) {
-  .main-heading {
-    font-size: 25px;
-  }
-
-  .category-img {
-    flex-basis: 43%;
-  }
+  .main-heading { font-size: 25px; }
+  .category-img { flex-basis: 43%; }
 
   .left-banner .main-heading { font-size: 25px; }
+
   .right-banner .heading ,
   .right-banner p {
     font-size: 13px;
@@ -901,10 +866,7 @@ li {
     margin: 0 auto;
   }
 
-  .explore .category-heading {
-    font-size: 27px;
-  }
-
+  .explore .category-heading { font-size: 27px; }
   .left-explore { padding: 0; }
   .leather-different { font-size: 12px; }
   .latest-type { font-size: 10px; }
