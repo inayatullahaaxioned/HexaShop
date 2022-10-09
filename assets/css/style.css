@@ -178,8 +178,7 @@ li {
   letter-spacing: .5px;
 }
 
-.nav-item.active ,
-.nav-item:hover {
+.nav-item.active {
   color: #CACFDB;
 }
 
@@ -420,6 +419,8 @@ li {
   font-size: 14px;
   line-height: 20px;
 }
+
+.support-anc { color: #3BA0F8; }
 
 .bold-para {
   padding-left: 42px;
@@ -666,9 +667,52 @@ li {
 =================================*/ 
 
 /*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
+/*media query for hover effects on desktop starts*/
+@media only screen and (min-width: 995px) {
+  .nav-item:hover {
+    color: #CACFDB;
+    transition: all .4s;
+  }
 
+  .purchase-btn:hover {
+    background-color: #cacfdb;
+    color: #454545;
+    transition: all .4s;
+  }
 
+  .category-img:hover .right-content {
+    transform: scale(1.05);
+    transition: all .4s;
+}
 
+.left-arrow:hover::before ,
+.right-arrow:hover::before {
+  transform: scale(1.1);
+  transition: all .4s;
+}
+
+.latest-list img:hover {
+  transform: scale(1.02);
+  transition: all .1s;
+}
+
+.discover-btn:hover {
+  background-color: #454545;
+  color: #fff;
+  transition: all .4s;
+}
+
+.subscribe-btn:hover::before {
+  border: 1px solid #000;
+  color: #000;
+  background-color: #fff;
+  transition: all .4s;
+}
+
+.social-icon:hover::before {
+  color: #e9e0e0;
+  transform: scale(1.15);
+}
+  
 }  
+/*media query for hover effects on desktop ends*/
